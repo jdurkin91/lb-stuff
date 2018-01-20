@@ -2,7 +2,7 @@
 require 'sinatra'
 
 set :count, 0
-set :port, 4566
+set :port, 4567
 set :bind, '0.0.0.0'
 
 #filter to intercept request to URL

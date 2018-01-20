@@ -3,3 +3,7 @@
 for i in {a,b}; do
   docker build apps/ -t $i --build-arg APP=$i
 done
+
+for i in {a,b}; do
+  docker run -itd -p 4567 $i
+done
