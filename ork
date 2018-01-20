@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+for i in {a,b}; do
+  docker build apps/ -t $i --build-arg APP=$i
+done
